@@ -1,0 +1,30 @@
+
+
+.Headernav{
+   
+}
+
+.section-topbanner{
+    border-bottom: 1px solid #e2e6e7;
+}
+.top-banner {
+    width: 1140px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding:5px 0;
+}
+.top-banner a {
+    color: #989697;
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 10px;
+    height: 13px;
+}
+.top-banner .icon {
+   margin:auto 2px
+}
+
+.section-bottombanner .logo {
+    height: 42px;
+}
