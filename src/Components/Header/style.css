@@ -1,9 +1,4 @@
 
-
-.Headernav{
-   
-}
-
 .section-topbanner{
     border-bottom: 1px solid #e2e6e7;
 }
@@ -21,10 +16,52 @@
     padding-left: 10px;
     height: 13px;
 }
+.top-banner .firstchild-a {
+    padding-left: 0px;
+}
 .top-banner .icon {
    margin:auto 2px
 }
-
-.section-bottombanner .logo {
+.section-bottombanner{
+justify-content: space-between;
+}
+.section-bottombanner .logo{
+   line-height: 42px;
+}
+.section-bottombanner .logo img{
+    float:left;
     height: 42px;
+}
+.search-input {
+    justify-content: space-between;
+   align-items: center;
+   border:thin solid rgb(192, 192, 192);
+   border-radius: 1px;
+   margin: auto 0;
+   padding:2px;
+   width: 300px;
+}
+.search-input input{
+outline: none;
+border: none;
+ margin-right:3px;
+ height: 18px;
+ width: 250px;
+}
+.search-input .logo-search {
+    border:thin solid rgb(192, 192, 192);
+    border-radius: 1px;
+    height: 20px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.search-input .logo-search:hover {
+    background-color: rgb(192, 192, 192);
+}
+.Headernav .package{
+    height: 42px;
+}
+.Headernav .booked-ticket {
+    font-size: 30px;
+    cursor: pointer;
 }
